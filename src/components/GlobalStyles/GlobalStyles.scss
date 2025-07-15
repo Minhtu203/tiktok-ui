@@ -1,20 +1,33 @@
 @import 'normalize.css';
 
 :root {
-    --primary: #fe2c55;
+  --primary: #fe2c55;
+  --black: black;
+  --text-color: rgba(22, 24, 35, 0.2);
+  --white: white;
+  --gray: #eee;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'Monserrat', 'sans-serif';
-    font-family: 'Roboto', 'sans-serif';
-    font-size: 1.6rem;
-    line-height: 1.5px;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+// Scrollbar
+
+
+
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
 }

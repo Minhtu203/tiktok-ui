@@ -1,7 +1,10 @@
-
+import classNames from 'classnames/bind';
+import Sidebar from '../../layouts/DefaultLayout/Sidebar';
 
 export default function Profile() {
-  return (
-    <h2>Profile Page</h2>
-  )
+    return (
+        <div>
+            <Sidebar />
+        </div>
+    );
 }
